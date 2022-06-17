@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* START header */
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.hero .container nav{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 5px;
+    padding: 0 16px;
+    align-items: center;
+}
+
+.hero .container nav ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+
+.hero .container nav li {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+/*END header*/
+
+
+
+
+.hero, .footer {
+    background-color: #1F2937;
+}
