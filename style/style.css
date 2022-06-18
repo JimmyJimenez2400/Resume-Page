@@ -188,7 +188,6 @@ a {
         flex-direction: column;
     }
     #hero .container .heading {
-        margin-top: 90px;
         text-align: center;
     }
 }
