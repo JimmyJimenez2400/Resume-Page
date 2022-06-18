@@ -5,99 +5,72 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page</title>
+    <title>Jimmy Jimenez</title>
     <link rel="stylesheet" href="./style/style.css">
 </head>
 
 <body>
-    <header>
-        <div class="hero">
-            <div class="container">
+    <!--
+<div class="backgroundVideo">
+        <video id="videoBG" src="./resources/piano.mp4" muted loop autoplay></video>
+
+        <audio autoplay>
+            <source src="./resources/slowdancing.mp3" loop>
+        </audio>
+    </div>
+    -->
+
+
+    <div class="navbar">
+        <div class="container">
+            <div class="logo"><a href="./index.html">Jimmy Jimenez</a></div>
+            
+            <div class="right-bar-container">
                 <nav>
-                    <div class="logo">Header Logo</div>
-                    <ul>
-                        <li>header link one</li>
-                        <li>header link two</li>
-                        <li>header link three</li>
-                    </ul>
+                    <ul class="nav-links">
+                        <li><a href="">Home</a></li>
+                        <li><a href="#hero">About</a></li>
+                        <li><a href="">Projects</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>  
                 </nav>
             </div>
+            
         </div>
-    </header>
+    </div>
 
-    <section>
-        <div class="main-hero-one">
-            <div class="main-hero-one__left">
-                <div class="main-hero-one" id="title">This website is awesome</div>
-                <p class="main-hero-one__subtext">
-                    This website has some subtext that goes under the main title. It's a small font and color is lower
-                    contrast
-                </p>
-                <button class="main-hero-one_signup_button">
-                    Sign Up
-                </button>
-            </div>
-
-            <div class="main-hero-one__right">
-                <img src="./images/map.jpg" alt="Picture of a Map">
-            </div>
-
-        </div>
-    </section>
-
-
-    <section>
-        <div class="main-hero-two">
-            <div id="title">Some Random Information.</div>
-            <div class="container">
-                <div class="info">
-                    <img src="./images/boat.jpg" alt="A Boat">
-                    <div class="text">This is some subtext under an illustration or image</div>
-                </div>
-                <div class="info">
-                    <img src="./images/compass.jpg" alt="A Compass">
-                    <div class="text">This is some subtext under an illustration or image</div>
-                </div>
-                <div class="info">
-                    <img src="./images/tent.jpg" alt="A Tent">
-                    <div class="text">This is some subtext under an illustration or image</div>
-                </div>
-                <div class="info">
-                    <img src="./images/waterfall.jpg" alt="waterfall">
-                    <div class="text">This is some subtext under an illustration or image</div>
+    <div id="hero">
+        <div class="container">
+            <div class="left-side">
+                <h2 class="heading">
+                    <div class="wrapper"><span>Hello, I'm</span></div>
+                    <div class="wrapper">Jimmy Jimenez<span></span></div>
+                    <div class="wrapper">Full Stack Developer <span></span></div>
+                </h2>
+                <div class="buttons">
+                    <a href="#" class="primary-btn">Download My CV</a>
                 </div>
             </div>
+            <div class="right-side">
+                <img src="./images/jim.jpg" alt="Jimmy">
+            </div>
         </div>
-    </section>
+    </div>
 
-    <section>
-        <blockquote>
-            <p class="blockquote__text">
-                This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe
-                people will actually read it. Who knows? All I know is that it looks nice.
-            </p>
-            <p class="blockquote__text--credit">
-                -Thor, God of Thunder
-            </p>
-        </blockquote>
-    </section>
+    <div class="quote">
 
-    <section>
-        <div class="sign-up">
-            <p class="sign-up__text">
-                Call to action! It's time!<br>
-                Sign Up for our product by clicking that button right over there!
-            </p>
-            <button class="sign-up__button">
-                Sign Up
-            </button>
+    </div>
+
+    <div class="contact"></div>
+
+    <div class="footer">
+        <div class="credit">
+            <p>&copy; Jimmy Jimenez</p>
         </div>
-    </section>
-    <footer>
-        <div class="footer">
-            &copy; The Odin Project 2022
-        </div>
-    </footer>
+
+    </div>
+
+
 
 </body>
 
