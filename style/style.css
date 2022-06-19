@@ -69,13 +69,14 @@ a {
 }
 
 .nav-links {
+    display: flex;
     list-style: none;
+    gap: 24px
 }
 
 .nav-links li {
-    margin-left: 20px;
-    display: inline-block;
-    padding: 0 20px;
+    display: flex;
+    
 }
 
 .nav-links li a {
@@ -147,10 +148,28 @@ a {
     border-radius: 12px;
 }
 
+/* Experience */
+
+.experience {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 2em;
+    color: #222222;
+    font-size: 1em;
+}
+
+.experience-timeline-heading {
+    margin: 0;
+    padding-bottom: 20px;
+    line-height: 40px;
+    -webkit-transform: translateY(-0.1em);
+    -ms-transform: translateY(-0.1em);
+    transform: translateY(-0.1em);
+}
 
 /* Footer */
 
-.footer {
+#footer {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -160,7 +179,7 @@ a {
     
 }
 
-.footer .credit {
+#footer .credit {
     color:#F9FAF8;
     padding: 10px;
 }
