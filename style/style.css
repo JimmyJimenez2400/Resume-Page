@@ -1,3 +1,10 @@
+/*
+60/30/10 = Body/text/button
+Main color: #1F2937
+Complementary Color: #DEA01E
+Accent color:#DBF2FF
+*/
+
 * {
     margin: 0;
     padding: 0;
@@ -22,8 +29,8 @@ a {
 /* Button Styling */
 .primary-btn {
     display: inline-block;
-    color: #F9FAF8;
-    background-color: #3882F6;
+    color: #1F2937;
+    background-color: #105267;
     font-size: 18px;
     padding: 10px 20px;
     border-radius: 50px;
@@ -68,7 +75,7 @@ a {
 #hero .left-side .heading {
     font-size: 48px;
     font-weight: 900;
-    color: #F9FAF8;
+    color: #DEA01E;
 }
 
 #hero .buttons {
@@ -79,8 +86,8 @@ a {
 
 #hero .left-side .buttons .primary-btn{
     display: inline-block;
-    color: #F9FAF8;
-    background-color: #3882F6;
+    color: #1F2937;
+    background-color: #DBF2FF;
     font-size: 18px;
     padding: 10px 20px;
     border-radius: 50px;
@@ -115,7 +122,7 @@ a {
 
 .logo a {
     font-size: 24px;
-    color: #F9FAF8;
+    color: #105267;
     text-decoration: none;
     transition: all 0.5s ease 0s;
 }
@@ -139,7 +146,7 @@ a {
 
 .nav-links li a {
     text-decoration: none;
-    color: #E5E7EB;
+    color: #DEA01E;
     font-size: 18px;
     transition: all 0.5s ease 0s;
 }
