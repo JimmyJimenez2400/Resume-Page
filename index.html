@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jimmy Jimenez</title>
     <link rel="stylesheet" href="./style/style.css">
+    <script src="https://kit.fontawesome.com/87be6933e5.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -20,12 +21,27 @@
     </div>
     -->
 
-
-    <div class="navbar">
+    <div id="hero">
         <div class="container">
-            <div class="logo"><a href="./index.html">Jimmy Jimenez</a></div>
-            
-            <div class="right-bar-container">
+            <div class="left-side">
+                <h2 class="heading">
+                    <div class="wrapper"><span>Hello, I'm</span></div>
+                    <div class="wrapper">Jimmy Jimenez<span></span></div>
+                    <div class="wrapper">Full Stack Developer <span></span></div>
+                </h2>
+                <div class="buttons">
+                    <a href="./images/RESUME 2022 Jimmy (1).pdf" class="primary-btn" onclick="return confirm('Are you sure you want to download this file?')" download>Download My CV</a>
+                </div>
+            </div>
+            <div class="right-side">
+                <img src="./images/nyc.jpg" alt="New York City">
+            </div>
+        </div>
+    </div>
+
+    <div id="navbar">
+        <div class="container">
+            <div class="middle-bar-container">
                 <nav>
                     <ul class="nav-links">
                         <li><a href="">Home</a></li>
@@ -39,65 +55,49 @@
         </div>
     </div>
 
-    <div id="hero">
-        <div class="container">
-            <div class="left-side">
-                <h2 class="heading">
-                    <div class="wrapper"><span>Hello, I'm</span></div>
-                    <div class="wrapper">Jimmy Jimenez<span></span></div>
-                    <div class="wrapper">Full Stack Developer <span></span></div>
-                </h2>
-                <div class="buttons">
-                    <a href="#" class="primary-btn">Download My CV</a>
-                </div>
+    <div id="about">
+        <div class="about-container">
+            <div class="about-title">
+                <h2>About Me</h2>
             </div>
-            <div class="right-side">
-                <img src="./images/jim.jpg" alt="Jimmy">
-            </div>
+            <i class="fa-solid fa-user-tie fa-7x"></i>
+            <p class="about-paragraph">
+                The passion for Web Development started in my sophomore year of college.
+
+            </p>
         </div>
     </div>
 
-    <div class="experience">
-        <h2 class="experience-secondaryHearing experience-jobs-heading">
-            Experience
-        </h2>
-        <section class="experience-timeline experience-job">
-            <h3 class="experience-timeline-heading">
-                <span class="experience-timeline-title">
-                    Commit To Green
-                </span>&#8211;
-                <span class="experience-heading-location">
-                    New York City, New York
-                </span>
-                <small class="experience-timeline-heading">
-                    Jun.'10 - Aug.'13
-                </small>
-            </h3>
-            <div class="experience-timeline-container">
-                <ul class="experience-details">
-                    <li class="experience-job-timeline-item">
-                        Collaborated with six interns to build start-up company website with tools such as React, Python, Javascript, and following a prototype design on Figma by design team
-                    </li>
-                    <li class="experience-job-timeline-item">
-                        Use Figma to establish clear design of prototype along with wireframing
-                    </li>
-                </ul>
-            </div>
-            
-        </section>
-    </div>
 
     <div id="project-showcase">
 
     </div>
 
-    <div id="contact"></div>
+    <div id="contact">
+        <div class="contact-container">
+            <div class="contact-title">
+                <h2>Contact</h2>
+            </div>
+            <form action="" class="contact-form">
+                <h3>Want to contact me? Just fill out the form below! I will get back to you as soon as possible</h3>
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="text" id="email" placeholder="Email ID" required>
+                <textarea id="message" cols="30" rows="4" placeholder="Feel free to type what you want to send!"></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </div>
 
     <div id="footer">
-        <div class="credit">
-            <p>&copy; Jimmy Jimenez</p>
+        <div class="footerContainer">
+            <div class="social-links ">
+                <a href="https://www.linkedin.com/in/jimmy-jimenez-47125516a/"><i class="fa-brands fa-linkedin fa-2xl"></i></a>
+                <a href="https://github.com/JimmyJimenez2400"><i class="fa-brands fa-github fa-2xl"></i></a>
+            </div>
+            <div class="copyright">
+                <p class="copyrightName">&copy; Jimmy Jimenez</p>
+            </div>
         </div>
-
     </div>
 
 
